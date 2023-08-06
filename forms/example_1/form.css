@@ -1,0 +1,52 @@
+body {
+    background-color: #222;
+    padding: 20px;
+}
+
+.form-panel {
+    background-color: #333;
+    color: #eee;
+    font-family: sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.form-input input {
+    background-color: #444;
+    border: 1px solid #777;
+    color: #eee;
+    padding: 4px 7px;
+}
+
+.form-input label,
+.radio-container span {
+    color: #aaa;
+}
+
+.radio-container {
+    margin-bottom: 15px;
+}
+
+.buttons button {
+    height: 30px;
+    width: 100px;
+    font-size: 12pt;
+    border: none;
+    border-radius: 4px;
+}
+
+#submitForm {
+    background-color: #18a586;
+    margin-right: 10px;
+}
+
+#clearForm {
+    background-color: #ccc;
+}

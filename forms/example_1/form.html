@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+    <script src="./form.js"></script>
+</head>
+<body>
+    <div class="form-panel">
+        <form id="personForm" action="#">
+
+            <div class="form-input">
+                <input id="firstName" name="firstName" type="text">
+                <label for="firstName">Primeiro nome</label>
+            </div>
+
+            <div class="form-input">
+                <input id="lastName" name="lastName" type="text">
+                <label for="lastName">Sobrenome</label>
+            </div>
+
+            <div class="form-input">
+                <input id="dateOfBirth" name="dateOfBirth" type="date">
+                <label for="dateOfBirth">Data Nascimento</label>
+            </div>
+
+            <div class="radio-container">
+                <span>Sexo</span>
+                <div>
+                    <input id="genderMale" type="radio" name="gender" value="m">
+                    <label for="genderMale">Masculino</label>
+                </div>
+                <div>
+                    <input id="genderFemale" type="radio" name="gender" value="f">
+                    <label for="genderFemale">Feminino</label>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button id="submitForm" type="submit">Enviar</button>
+                <button id="clearForm" type="reset">Limpar</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            runScript();
+        });
+    </script>
+</body>
+</html>
